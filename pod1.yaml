@@ -1,0 +1,14 @@
+# definindo a versão da API
+apiVersion: v1
+
+# informando o que queremos criar
+kind: Pod
+
+# definindo metadados
+metadata:
+  name: pod1-declarativo
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx:stable
+

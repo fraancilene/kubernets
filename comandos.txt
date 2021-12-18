@@ -1,0 +1,9 @@
+# criando um pod
+# kubectl run nome-pod --image=imagem:versao
+kubectl run nginx-pod --image=nginx:latest
+
+# listando os pods
+kubectl get pods
+
+# listando e acompanhando pod em tempo real
+kubectl get pods --watch
